@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Visualizador {
-    public void imprimirDetalhesDoUsuario(String produto, double preco){
+    public void imprimirDetalhesDoProduto(String produto, double preco){
         System.out.println("Nome: " + produto);
         System.out.println("Preço: " + preco);
     }
@@ -12,9 +12,9 @@ public class Visualizador {
         return scanner.nextLine();
     }
 
-    public int getPreco(){
+    public double getPreco(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o preço: ");
-        return scanner.nextInt();
+        return scanner.nextDouble();
     }
 }

@@ -14,7 +14,7 @@ public class Modelo {
         return preco;
     }
 
-    public void setPreco(double age) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 }

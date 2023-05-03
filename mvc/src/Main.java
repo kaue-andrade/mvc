@@ -1,25 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        Modelo model = recuperarUsuarioDoBancoDeDados();
+        Modelo model = recuperarProdutoDoBancoDeDados();
 
         Visualizador view = new Visualizador();
 
         Controlador controller = new Controlador(model, view);
 
-        controller.updateView();
+        controller.atualizarView();
 
         // Atualizando o modelo
 
-        controller.setUserProduto("Alexa");
-        controller.setUserPreco(250.00);
+        controller.setProdutoEmpresa("Alexa");
+        controller.setPrecoEmpresa(250.00);
 
-        controller.updateView();
+        controller.atualizarView();
     }
 
-    private static Modelo recuperarUsuarioDoBancoDeDados(){
-        Modelo user = new Modelo();
-        user.setName("Amazon Fire TV Stick");
-        user.setPreco(236.55);
-        return user;
+    private static Modelo recuperarProdutoDoBancoDeDados(){
+        Modelo produto = new Modelo();
+        produto.setName("Amazon Fire TV Stick");
+        produto.setPreco(236.55);
+        return produto;
     }
 }

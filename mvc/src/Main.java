@@ -1,24 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        UserModel model = retrieveUserFromDatabase();
+        Modelo model = recuperarUsuarioDoBancoDeDados();
 
-        UserView view = new UserView();
+        Visualizador view = new Visualizador();
 
-        UserController controller = new UserController(model, view);
+        Controlador controller = new Controlador(model, view);
 
         controller.updateView();
 
-        //Atualizando o modelo
-        controller.setUserName("João");
-        controller.setUserAge(30);
+        // Atualizando o modelo
+
+        controller.setUserProduto("Alexa");
+        controller.setUserPreco(250.00);
 
         controller.updateView();
     }
 
-    private static UserModel retrieveUserFromDatabase(){
-        UserModel user = new UserModel();
-        user.setName("Maria");
-        user.setAge(25);
+    private static Modelo recuperarUsuarioDoBancoDeDados(){
+        Modelo user = new Modelo();
+        user.setName("Amazon Fire TV Stick");
+        user.setPreco(236.55);
         return user;
     }
 }

@@ -4,7 +4,7 @@
   <img src="https://thumbs.gfycat.com/DistinctMammothAngora-max-1mb.gif" alt=Calendario">
 </p>
 
-Integrantes: 
+<b>Integrantes</b>: 
 
 Antonio Carlos Borges de Souza;</br>
 Antônio Leopoldo França Filho;</br>

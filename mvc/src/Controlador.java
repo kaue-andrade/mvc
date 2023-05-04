@@ -7,19 +7,19 @@ public class Controlador {
         this.view = view;
     }
 
-    public void setProdutoEmpresa(String produto){
+    public void setProdutoDaEmpresa(String produto){
         model.setName(produto);
     }
 
-    public String getProdutoEmpresa(){
+    public String getProdutoDaEmpresa(){
         return model.getProduto();
     }
 
-    public void setPrecoEmpresa(double preco){
+    public void setPrecoDoProduto(double preco){
         model.setPreco(preco);
     }
 
-    public double getPrecoEmpresa(){
+    public double getPrecoDoProduto(){
         return model.getPreco();
     }
 

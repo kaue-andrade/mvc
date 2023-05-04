@@ -10,8 +10,8 @@ public class Main {
 
         // Atualizando o modelo
 
-        controller.setProdutoEmpresa("Alexa");
-        controller.setPrecoEmpresa(250.00);
+        controller.setProdutoDaEmpresa("Alexa");
+        controller.setPrecoDoProduto(250.00);
 
         controller.atualizarView();
     }

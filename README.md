@@ -4,10 +4,10 @@
   <img src="https://thumbs.gfycat.com/DistinctMammothAngora-max-1mb.gif" alt=Calendario">
 </p>
 
-Integrantes: 
+<b>Integrantes</b>: 
 
-Antonio Carlos Borges de Souza;
-Antônio Leopoldo França Filho;
-Ítalo Ricardo de Andrade Silva; 
-Luis Feliphe Silva Abreu;
+Antonio Carlos Borges de Souza;</br>
+Antônio Leopoldo França Filho;</br>
+Ítalo Ricardo de Andrade Silva;</br>
+Luis Feliphe Silva Abreu;</br>
 Milene Reis dos Santos.

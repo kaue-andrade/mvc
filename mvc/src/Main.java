@@ -18,7 +18,7 @@ public class Main {
 
     private static Modelo recuperarProdutoDoBancoDeDados(){
         Modelo produto = new Modelo();
-        produto.setName("Amazon Fire TV Stick");
+        produto.setProduto("Amazon Fire TV Stick");
         produto.setPreco(236.55);
         return produto;
     }

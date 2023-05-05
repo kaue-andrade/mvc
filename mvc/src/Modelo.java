@@ -6,7 +6,7 @@ public class Modelo {
         return produto;
     }
 
-    public void setName(String produto) {
+    public void setProduto(String produto) {
         this.produto = produto;
     }
 

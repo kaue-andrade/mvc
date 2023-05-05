@@ -8,7 +8,7 @@ public class Controlador {
     }
 
     public void setProdutoDaEmpresa(String produto){
-        model.setName(produto);
+        model.setProduto(produto);
     }
 
     public String getProdutoDaEmpresa(){
